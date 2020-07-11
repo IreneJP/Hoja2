@@ -20,6 +20,10 @@ let miBibio = new MobileLibrary("Vodafone", "Centro Comercial",moviles)
 console.log(miBibio.getName())
 console.log(miBibio.getLocation())
 console.log(miBibio.getMobiles())
-console.log(miBibio.totalPriceCalculation())
+console.log(miBibio.getTotalPriceCalculation())
+
+miBibio.printLibrary()
+
+
 
 
