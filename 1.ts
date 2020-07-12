@@ -66,8 +66,7 @@ export class MobileLibrary {
             }   
         }  
 
-    /*. Crear un nuevo método denominado printLibrary que recorra todos los
-objetos del atributo mobile y los muestre por consola de la siguiente
+/*11. Crear un nuevo método denominado printLibrary que recorra todos los objetos del atributo mobile y los muestre por consola de la siguiente
 manera:
 • “This is all my mobiles:”
 • “The characteristics of the mobile name are:”

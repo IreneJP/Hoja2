@@ -11,8 +11,10 @@ var moviles = [movil1, movil2, movil3, movil4];
 //6. Crear un objeto de la clase MobileLibrary y asignarle el array que habéis creado previamente
 var miBibio = new _1_1.MobileLibrary("Vodafone", "Centro Comercial", moviles);
 //7.Comprobar que todos los métodos del objeto funcionan perfectamente.
-console.log(miBibio.getName());
-console.log(miBibio.getLocation());
-console.log(miBibio.getMobiles());
-console.log(miBibio.getTotalPriceCalculation());
+/*
+console.log(miBibio.getName())
+console.log(miBibio.getLocation())
+console.log(miBibio.getMobiles())
+console.log(miBibio.getTotalPriceCalculation())
+*/
 miBibio.printLibrary();

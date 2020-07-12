@@ -22,6 +22,8 @@ console.log(miBibio.getLocation())
 console.log(miBibio.getMobiles())
 console.log(miBibio.getTotalPriceCalculation())
 
+
+//11. Crear un nuevo método denominado printLibrary que recorra todos losobjetos del atributo mobile y los muestre por consola
 miBibio.printLibrary()
 
 

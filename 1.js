@@ -1,13 +1,6 @@
 "use strict";
 exports.__esModule = true;
 exports.MobileLibrary = void 0;
-/*Crear una clase que se denomine MobileLibrary que contenga los
-siguientes atributos privados:
-• name : string
-• location : string
-• mobiles : Mobile[]
-• totalPrice: number */
-var _1_mobile_1 = require("./1_mobile");
 var MobileLibrary = /** @class */ (function () {
     //Crear un constructor que tome como parámetros de entrada el name, location y el array de objetos de la clase Mobile.
     function MobileLibrary(name, location, mobiles) {
@@ -78,17 +71,23 @@ manera:
         console.log("This is all my mobiles: " + "\n" + library + "\n");
     };
     return MobileLibrary;
-}());
+}()); //NO ME SALE!!
 exports.MobileLibrary = MobileLibrary;
-//12. En el fichero principal crear los objetos necesarios para crear un nuevo objeto de la clase MobileLibrary y comprobar todos sus métodos
-var Motorola = new _1_mobile_1.Mobile("Motorola", "3", "Motorola", 6, "White", false, 1, 125);
-var Sony = new _1_mobile_1.Mobile("Sony", "Poco F2 Pro ", "Sony", 128, "Electric Purple", true, 4, 499);
-var BQ = new _1_mobile_1.Mobile("BQ ", "New Edition", "Huawei ", 256, "Negro", false, 3, 353.43);
-var LG = new _1_mobile_1.Mobile("Realme", "X50 Pro", "LG", 128, "red", true, 4, 598);
-var todosMoviles = [Motorola, Sony, BQ, LG];
-var stock = new MobileLibrary("Movistar", "City Center", todosMoviles);
-console.log(stock.getName());
-console.log(stock.getLocation());
-console.log(stock.getMobiles());
-console.log(stock.getTotalPriceCalculation());
-stock.printLibrary();
+/*//12. En el fichero principal crear los objetos necesarios para crear un nuevo objeto de la clase MobileLibrary y comprobar todos sus métodos
+
+let Motorola= new Mobile("Motorola", "3", "Motorola", 6, "White", false, 1, 125)
+let Sony = new Mobile("Sony", "Poco F2 Pro ", "Sony",128,"Electric Purple",true, 4,499)
+let BQ = new Mobile("BQ ", "New Edition", "Huawei ", 256,"Negro", false,3,353.43 )
+let LG = new Mobile("Realme", "X50 Pro", "LG",128, "red",true,4, 598)
+
+let todosMoviles = [Motorola, Sony, BQ, LG]
+
+let stock = new MobileLibrary("Movistar", "City Center",todosMoviles)
+
+console.log(stock.getName())
+console.log(stock.getLocation())
+console.log(stock.getMobiles())
+console.log(stock.getTotalPriceCalculation())
+
+stock.printLibrary()
+*/ 
